@@ -21,7 +21,6 @@ public class Main {
         LocalDate today = LocalDate.now();
         LocalDate yesterday = today.minusDays(1);
 
-
         // Correct total spent
         System.out.printf("Alice's total spending: $%.2f\n",
                 tracker.getCustomerTotalSpent("C001")); // Output: $3.98
